@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+:root{
+    --color-text-white:hsl(0, 0%, 100%);
+    --color-text-light:hsl(217, 12%, 63%);
+    --color-medium:hsl(216, 12%, 54%);
+    --color-dark-blue: hsl(213, 19%, 14%);
+    --color-dark-blue-og:hsl(213, 19%, 18%);
+    --color-very-dark-blue:hsl(216, 12%, 8%);
+    --color-orange:hsl(25, 97%, 53%);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+body{
+    width:1440px;
+    height: 800px;
+    background: var(--color-very-dark-blue);
+    position: absolute;
+    top:9%;
+    left:11%;
+}
+main{
+    width: 410px;
+    height: 416px;
+    border-radius: 20px;
+    background-color: var(--color-dark-blue);
+    position: absolute;
+    top:25%;
+    left:35%;
+    display:flex;
+    flex-direction: column;
+    padding: 35px
+}
+.btn-score,
+.star-icon{
+    background-color: var(--color-dark-blue-og);
+}
+.star-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.star-icon > i{
+    color:var(--color-orange);
+    position: relative;
+    top: 33%;
+    left: 30.5%; 
+    
+}
+
+main > h1{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+#submitButton,
+main > h1{
+    color:var(--color-text-white);
+}
+.btn-score,
+main > p{
+    color:var(--color-medium);
+    line-height: 25px;
+}
+
+main > p{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+
+.rating-buttons{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap:25px;
+    margin-bottom: 30px;
+}
+.btn-score{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    
+}
+.btn-score.active{
+    background-color: var(--color-text-light);
+    color:var(--color-text-white);
+    cursor: pointer;
+}
+
+.btn-score:hover{
+    background-color: var(--color-orange);
+    color:var(--color-text-white);
+    cursor: pointer;
+}
+
+#submitButton{
+    width:342px;
+    height: 48px;
+    background-color: var(--color-orange);
+    border-radius: 30px;
+    border:none;
+}
+#submitButton:hover{
+    background-color:var(--color-text-white); 
+    color:var(--color-orange);
+    cursor: pointer;
+}
