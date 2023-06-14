@@ -30,7 +30,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshot](https://github.com/williamvnobrega/frontend-mentor-interactive-rating/assets/108727812/84a7575b-47c6-4a46-9916-30903c32ebaa)
+
 
 
 
