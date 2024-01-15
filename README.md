@@ -37,7 +37,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Github Live Page](https://williamvnobrega.github.io/frontend-mentor-interactive-rating/)
 
 ## My process
